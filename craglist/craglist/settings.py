@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1z5_wyo0nhvz%(ict@bi3f=$m3j&ik()%sxkgp9=gv79bv+g4+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://craglist-afnan.herokuapp.com/", "127.0.0.1"]
 
 
 # Application definition
